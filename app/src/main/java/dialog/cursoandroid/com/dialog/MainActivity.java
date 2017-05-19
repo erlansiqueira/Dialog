@@ -34,8 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 //configurar mensagem
                 dialog.setMessage("Mensagem");
 
-                //cancelamento de dialog'
+                //cancelamento de dialog
                 dialog.setCancelable(false);
+
+                //icones no dialog
+                dialog.setIcon(android.R.drawable.ic_delete);
 
                 //botao negativo
                 dialog.setNegativeButton("Nao", new DialogInterface.OnClickListener() {
